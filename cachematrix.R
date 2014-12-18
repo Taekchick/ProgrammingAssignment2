@@ -1,6 +1,5 @@
-# The function creates a special 'matrix' which is a list
-# containing a function to set, get, set inverse, and get 
-# inverse
+# The function creates a special 'matrix' which gets and
+# sets a matrix or gets and sets its inverse
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
